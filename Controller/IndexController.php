@@ -10,7 +10,7 @@ use Symfony\Component\Routing\Annotation\Route;
 class IndexController extends AbstractController
 {
     /**
-     * @Route("/test", name="app_homepage")
+     * @Route("/test", name="adkomo_framework_test")
      */
     public function homepage()
     {

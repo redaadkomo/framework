@@ -6,7 +6,7 @@
 
     <services>
         <defaults public="false" />
-        <service id="adkomo_framework_bundler.controller.index" class="Adkomo\FrameworkBundle\Controller" public="true">
+        <service id="adkomo_framework_bundle.controller.index" class="Adkomo\FrameworkBundle\Controller\IndexController" public="true">
         </service>
 
 

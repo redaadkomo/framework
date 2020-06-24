@@ -6,7 +6,7 @@
         http://symfony.com/schema/routing/routing-1.0.xsd">
 
     <route id="adkomo_framework_test" path="/test">
-        <default key="_controller">adkomo_framework_bundler.controller.index</default>
+        <default key="_controller">adkomo_framework_bundle.controller.index</default>
     </route>
 
 </routes>

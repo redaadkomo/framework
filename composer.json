@@ -1,0 +1,28 @@
+{
+  "name": "adkomo/framework-bundle",
+  "type": "symfony-bundle",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Reda Benzekri",
+      "email": "reda@adkomo.com"
+    }
+  ],
+  "require": {
+    "php": "7.4.6",
+    "symfony/config": "5.1.*",
+    "api-platform/api-pack": "1.2.*"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Adkomo\\FrameworkBundle\\": ""
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Adkomo\\FrameworkBundle\\Tests\\": "tests/"
+    }
+  }
+}

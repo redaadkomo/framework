@@ -2,17 +2,10 @@
 
 namespace Adkomo\FrameworkBundle\Controller;
 
-
-use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
-use Symfony\Component\Routing\Annotation\Route;
-
-
-class IndexController extends AbstractController
+class IndexController
 {
-    /**
-     * @Route("/test", name="adkomo_framework_test")
-     */
-    public function homepage()
+
+    public function __invoke()
     {
         $referenceName = "currencies";
         $value="USD";
